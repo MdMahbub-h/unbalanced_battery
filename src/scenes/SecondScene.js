@@ -39,7 +39,7 @@ class SecondScene extends Phaser.Scene {
       Phaser.Geom.Rectangle.Contains
     );
     this.balanceButtonText = this.add
-      .text(this.width * 0.8, this.height * 0.4, "Balance", {
+      .text(this.width * 0.79, this.height * 0.4, "Balance", {
         font: "bold 28px Helvetica",
         fill: "#ffffff",
       })
