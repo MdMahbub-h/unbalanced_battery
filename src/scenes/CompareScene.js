@@ -176,7 +176,7 @@ class CompareScene extends Phaser.Scene {
     });
 
     this.nextButton.on("pointerdown", () => {
-      this.scene.start("SecondScene");
+      // this.scene.start("SecondScene");
     });
 
     this.nextButtonText = this.add
